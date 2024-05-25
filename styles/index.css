@@ -1,0 +1,227 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    font-family: 'Poppins', sans-serif;
+
+
+
+}
+
+body {
+
+    background-color: rgb(224, 224, 224);
+
+}
+
+
+
+
+
+
+.intro {
+
+    background-color: #334ea7;
+    color: white;
+    padding-inline: 40px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.taas {
+
+    width: 60%;
+
+}
+
+.intro-img {
+
+    width: 40%;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.intro-img img {
+
+    width: 95%;
+}
+
+
+
+.taas h1 {
+    padding-top: 100px;
+    color: rgb(233, 233, 77);
+    font-size: 5vw;
+
+}
+
+.taas p {
+
+    font-size: 1.3vw;
+    width: 70%;
+    padding-bottom: 100px;
+    line-height: 1.5;
+}
+
+.intro-img {}
+
+.baba {
+
+    padding-inline: 40px;
+    padding-block: 20px;
+}
+
+.baba h1 {
+
+    color: #334ea7;
+    text-align: center;
+
+    font-size: 2.5vw;
+}
+
+.offers {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+
+}
+
+.offerings {
+
+    font-size: 1vw;
+    width: 30%;
+    height: auto;
+    background-color: #334ea7;
+    border-radius: 20px;
+    margin-block: 5px;
+
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+
+
+}
+
+.offer-img {
+
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.expl {
+    font-family: sans-serif;
+    padding: 20px;
+    text-align: justify;
+    color: white;
+
+
+}
+
+.expl h3 {
+
+    font-size: 1.5vw;
+    padding-bottom: 8px;
+    color: rgb(233, 233, 77);
+}
+
+
+
+
+
+footer {
+
+    background-color: #545454;
+    color: rgb(233, 233, 77);
+    text-align: center;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding-block: 30px;
+    font-size: 1vw;
+}
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    
+    .logo {
+
+        font-size: 40px;
+    }
+
+    .login {
+
+        font-size: 15px;
+    }
+
+
+    
+
+    .taas {
+
+        width: 90%;
+    
+    }
+
+    .taas h1  {
+
+        font-size: 60px;
+        padding: 40px 0 0 0;
+    }
+    
+    .taas p {
+
+        font-size: 20px;
+        width: 100%;
+    }
+    
+    .intro-img {
+    
+        display: none;
+        
+    }
+
+    .offerings {
+
+        font-size: 20px;
+        width: 95%;
+
+    }
+
+    .offerings h3 {
+
+        font-size: 5vw;
+    }
+
+    
+
+    .offerings {
+
+        font-size: 3vw;
+    }
+
+    .baba h1 {
+
+        font-size: 5vw;
+    }
+
+    footer {
+
+        font-size: 2.5vw;
+    }
+
+    
+
+}
+
+    

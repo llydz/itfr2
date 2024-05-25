@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/ref.css">
+    <title>REFERENCE</title>
+
+
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+
+<nav>
+    <div class="nav-container">
+        <script>
+            function toggleSidebar() {
+                var sidebar = document.getElementById("sidebar");
+                sidebar.classList.toggle("open-sidebar");
+            }
+            function closeSidebar() {
+                var sidebar = document.getElementById("sidebar");
+                sidebar.classList.remove("open-sidebar");
+            }
+        </script>
+        <a id="menu" onclick="toggleSidebar()">&equiv;</a>
+        <div id="sidebar" class="sidebar">
+            <a href="#" class="closebtn" onclick="closeSidebar()">&times;</a>
+            <a href="index.html">HOME</a>
+            <a href="product.html">PRODUCTS</a>
+            <a href="ref.html">REFERENCE</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="contact.html">CONTACT US</a>
+        </div>
+        <div class="logo">
+            PCXP
+        </div>
+        <div class="navigation">
+            <a href="index.html">HOME</a>
+            <a href="product.html">PRODUCTS</a>
+            <a href="ref.html">REFERENCE</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="contact.html">CONTACT US</a>
+        </div>
+        <div class="login">
+            <a hidden href="login.html">LOGIN</a>
+        </div>
+    </div>
+</nav>
+
+<body>
+    <main>
+        <h1 class="tit">PCXP CLIENTS REFERENCES</h1>
+
+
+        <H1 class="hh">CLIENTS</H1>
+    </main>
+    <footer>
+        <p>COPYRIGHT &COPY BSIT 4C</p>
+    </footer>
+
+</body>
+
+</html>

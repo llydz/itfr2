@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+nav {
+
+    background-color: #334ea7;
+    padding-inline: 50px;
+    padding-block: 20px;
+
+    font-weight: 700;
+
+}
+
+.login a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.logo {
+
+    color: white;
+    font-size: 30px;
+}
+
+.navigation a {
+
+    text-decoration: none;
+    color: #334ea7;
+    padding-block: 15px;
+    padding-inline: 28px;
+    font-weight: 600;
+}
+
+.navigation a:hover {
+
+    background-color: #334ea7;
+    color: rgb(233, 233, 77);
+    padding-block: 10px;
+    padding-inline: 25px;
+    border-radius: 10px;
+}
+
+.navigation {
+
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    transition: 0.1s linear;
+}
+
+
+
+#menu {
+
+    display: none;
+}
+
+.sidebar {
+
+    display: none;
+}
+
+@media screen and (max-width: 970px) {
+
+    .navigation {
+        display: none; 
+
+    }
+
+    
+    
+    .sidebar {
+        display: block;
+    }
+    
+    .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #1c2542e5;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    
+    .sidebar a {
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    .sidebar a:hover {
+        color: #f1f1f1;
+    }
+    
+    .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    
+    .open-sidebar {
+        width: 250px;
+    }
+    
+    .close-sidebar {
+        width: 0;
+    }
+
+    #menu {
+
+        display: block;
+        font-size: 30px;
+        text-decoration: none;
+        color: white;
+    }
+} 
+
+
+
+    
+
+
+

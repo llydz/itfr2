@@ -1,0 +1,146 @@
+main {
+
+    
+}
+
+body {
+
+    background-color: rgb(224, 224, 224);
+}
+
+.about h1 {
+
+    
+    margin-block: 10px;
+    font-size: 70px;
+    color: #E9E94D;
+}
+
+.about p {
+
+    
+    text-align: justify;
+    font-size: 25px;
+    padding: 20px 70px;
+    color: white;
+    line-height: 1.9;
+
+
+}
+
+.about {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background-color: #334ea7;
+    
+   
+    
+    
+
+}
+
+.second {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    width: 100%;
+    
+        
+}
+
+.strat, .values {
+
+    background-color: white;
+    width: 41%;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    margin: 30px 20px;    
+}
+
+
+.values h1, .strat h1 {
+
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #334ea7;
+}
+
+
+.values ul {
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.values, .strat {
+
+    border-radius: 15px;
+    padding: 30px;
+    
+}
+
+.values p, .strat p {
+
+    font-size: 25px;
+    text-align: justify;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+
+    .strat, .values {
+
+        
+        width: 80%;
+          
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+
+    .about h1 {
+
+        font-size: 50px;
+    }
+
+    .about p {
+
+        font-size: 16px;
+
+        padding: 20px 30px;
+    }
+
+    .about {
+
+    }
+
+    .values p, .strat p {
+
+        font-size: 18px;
+        
+    }
+
+    .values h1, .strat h1 {
+
+        
+        font-size: 30px;
+       
+    }
+
+    .values ul {
+        
+        font-size: 18px;
+    }
+
+
+}

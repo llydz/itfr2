@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>CONTACT US</title>
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+
+<nav>
+    <div class="nav-container">
+        <script>
+            function toggleSidebar() {
+                var sidebar = document.getElementById("sidebar");
+                sidebar.classList.toggle("open-sidebar");
+            }
+            function closeSidebar() {
+                var sidebar = document.getElementById("sidebar");
+                sidebar.classList.remove("open-sidebar");
+            }
+        </script>
+        <a id="menu" onclick="toggleSidebar()">&equiv;</a>
+        <div id="sidebar" class="sidebar">
+            <a href="#" class="closebtn" onclick="closeSidebar()">&times;</a>
+            <a href="index.html">HOME</a>
+            <a href="product.html">PRODUCTS</a>
+            <a href="ref.html">REFERENCE</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="contact.html">CONTACT US</a>
+        </div>
+        <div class="logo">
+            PCXP
+        </div>
+        <div class="navigation">
+            <a href="index.html">HOME</a>
+            <a href="product.html">PRODUCTS</a>
+            <a href="ref.html">REFERENCE</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="contact.html">CONTACT US</a>
+        </div>
+        <div class="login">
+            <a hidden href="login.html">LOGIN</a>
+        </div>
+    </div>
+</nav>
+
+<body>
+    <main>
+
+        <h1 class="tit">CONTACT US</h1>
+
+        <div class="cont">
+            <div class="det">
+                <H1>SALES AND MARKETING</H1>
+                <p><i class="fa-solid fa-house cols"></i><b> Address: </b>MALABON</p>
+                <p><i class="fa-solid fa-user cols"></i><b> CONTACT PERSON:</b> KIM ANDREI AREVALO</p>
+                <p><i class="fa-solid fa-phone cols"></i><b> Contact:</b> (632) 999-999-999</p>
+                <p><i class="fa-solid fa-envelope cols"></i><b> Email:</b> kim@pcxp.zzz</p>
+            </div>
+        </div>
+
+
+
+
+
+    </main>
+
+    <?php include ('footer.php'); ?>
+</body>
+
+</html>
